@@ -29,21 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
         darkModeToggle.textContent = "☀️";
     }
 
-    // Fade-in effect
-    const fadeElements = document.querySelectorAll(".fade-in");
-    function fadeInOnScroll() {
-        fadeElements.forEach(el => {
-            const rect = el.getBoundingClientRect();
-            if (rect.top < window.innerHeight - 50) {
-                el.style.opacity = "1";
-                el.style.transform = "translateY(0)";
-            }
-        });
-    }
-
-    window.addEventListener("scroll", fadeInOnScroll);
-    fadeInOnScroll();
-
     // Typing animation
     const text = "Shivang Ayush";
     let index = 0;
@@ -56,4 +41,38 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     document.querySelector(".typing").textContent = "";
     typeEffect();
+
+    // Cursor Particle Effect
+    const canvas = document.getElementById("particleCanvas");
+    const ctx = canvas.getContext("2d");
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    let particles = [];
+
+    document.addEventListener("mousemove", function (event) {
+        particles.push({
+            x: event.clientX,
+            y: event.clientY,
+            size: Math.random() * 5 + 1,
+            life: 30
+        });
+    });
+
+    function updateParticles() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach((p, i) => {
+            p.life--;
+            if (p.life <= 0) {
+                particles.splice(i, 1);
+            } else {
+                ctx.fillStyle = "#FFD700";
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        });
+        requestAnimationFrame(updateParticles);
+    }
+
+    updateParticles();
 });
