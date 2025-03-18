@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const links = document.querySelectorAll("nav ul li a");
     const darkModeToggle = document.getElementById("darkModeToggle");
     const body = document.body;
-    
+
     // Smooth scrolling
     links.forEach(link => {
         link.addEventListener("click", function (event) {
@@ -15,13 +15,20 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
     });
-    
-    // Dark Mode Toggle
+
+    // Dark Mode Toggle with Local Storage
     darkModeToggle.addEventListener("click", function () {
         body.classList.toggle("dark-mode");
+        localStorage.setItem("dark-mode", body.classList.contains("dark-mode"));
         darkModeToggle.textContent = body.classList.contains("dark-mode") ? "☀️" : "🌙";
     });
-    
+
+    // Load Dark Mode Preference
+    if (localStorage.getItem("dark-mode") === "true") {
+        body.classList.add("dark-mode");
+        darkModeToggle.textContent = "☀️";
+    }
+
     // Fade-in effect
     const fadeElements = document.querySelectorAll(".fade-in");
     function fadeInOnScroll() {
@@ -33,10 +40,10 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
-    
+
     window.addEventListener("scroll", fadeInOnScroll);
     fadeInOnScroll();
-    
+
     // Typing animation
     const text = "Shivang Ayush";
     let index = 0;
