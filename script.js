@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    alert("Hello, Shivang! Keep learning and keep building! 🚀");
     const links = document.querySelectorAll("nav ul li a");
     const darkModeToggle = document.getElementById("darkModeToggle");
     const body = document.body;

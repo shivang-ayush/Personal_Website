@@ -1,98 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Algerian&family=Forte&display=swap');
-
-body {
+/* Reset Styles */
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Algerian', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
     text-align: center;
-    color: white;
-    background: url('IMG-20250316-WA0034.jpg') no-repeat center center/cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding: 20px;
 }
 
-/* Fix Heading Fonts */
+header {
+    background-color: #111;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 h1 {
-    font-family: 'Forte', cursive, sans-serif;
-    font-size: 3rem;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
-h2 {
-    font-size: 2rem;
-    font-family: 'Algerian', sans-serif;
-}
-
-p {
-    font-size: 1.2rem;
-    max-width: 80%;
-    margin: auto;
-}
-
-/* Navigation Bar */
 nav ul {
     list-style: none;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 nav ul li {
-    display: inline;
-    margin: 15px;
+    margin: 0 15px;
 }
 
 nav ul li a {
+    color: cyan;
     text-decoration: none;
-    color: white;
-    font-size: 1.3rem;
-    font-weight: bold;
-    transition: color 0.3s;
+    font-size: 1.2rem;
 }
 
 nav ul li a:hover {
-    color: cyan;
+    color: orange;
 }
 
-/* Dark Mode Button */
-#darkModeToggle {
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-
-/* Fix Background Issue */
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('IMG-20250316-WA0013.jpg') no-repeat center center/cover;
-    filter: brightness(60%);
-    z-index: -1;
-}
-
-/* Fix Cursor */
-.cursor {
-    width: 10px;
-    height: 10px;
-    background-color: cyan;
-    border-radius: 50%;
-    position: absolute;
-    pointer-events: none;
-    transition: transform 0.1s ease;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-/* Fix Spacing */
 section {
-    padding: 50px 10px;
+    margin-top: 100px;
+    padding: 40px 20px;
+    border-bottom: 1px solid gray;
+}
+
+button {
+    background: cyan;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: orange;
+    color: white;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #111;
 }
