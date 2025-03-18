@@ -2,7 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const links = document.querySelectorAll("nav ul li a");
     const darkModeToggle = document.getElementById("darkModeToggle");
     const body = document.body;
-    const cursor = document.querySelector(".cursor");
+    const cursor = document.createElement("div");
+    cursor.classList.add("cursor");
+    document.body.appendChild(cursor);
 
     // Smooth scrolling
     links.forEach(link => {
@@ -23,20 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
         darkModeToggle.textContent = body.classList.contains("dark-mode") ? "☀️" : "🌙";
     });
 
-    // Fade-in effect
-    const fadeElements = document.querySelectorAll(".fade-in");
-    function fadeInOnScroll() {
-        fadeElements.forEach(el => {
-            const rect = el.getBoundingClientRect();
-            if (rect.top < window.innerHeight - 50) {
-                el.classList.add("show");
-            }
-        });
-    }
-    
-    window.addEventListener("scroll", fadeInOnScroll);
-    fadeInOnScroll();
-
     // Typing animation
     const text = "Shivang Ayush";
     let index = 0;
@@ -54,13 +42,5 @@ document.addEventListener("DOMContentLoaded", function () {
     document.addEventListener("mousemove", (e) => {
         cursor.style.left = `${e.clientX}px`;
         cursor.style.top = `${e.clientY}px`;
-    });
-
-    document.addEventListener("mouseenter", () => {
-        cursor.style.opacity = 1;
-    });
-
-    document.addEventListener("mouseleave", () => {
-        cursor.style.opacity = 0;
     });
 });
