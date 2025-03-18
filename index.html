@@ -1,44 +1,93 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivang's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<h>UNDER PROGRESS! Wait!</h>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <nav>
+    <div class="nav-content">
+      <a href="#home" class="logo">Your Name</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I am <strong>Shivang Ayush</strong>, a passionate tech enthusiast exploring Electronics, Computer Science, and Ethical Hacking.</p>
-    </section>
+  <section id="home">
+    <div class="container">
+      <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+      <p class="tagline">Developer & Designer</p>
+      <div class="social-links">
+        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Check out my <strong>Arduino-based traffic management system</strong>, Termux ethical hacking setups, and other exciting projects!</p>
-    </section>
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>A passionate developer with expertise in web development and design. I love creating beautiful and functional websites.</p>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Let's connect! Reach out via email or social media.</p>
-        <button id="clickMe">Click Me</button>
-    </section>
+  <section id="expertise">
+    <div class="container">
+      <h2>Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-paint-brush"></i>
+          <h3>Design</h3>
+          <p>UI/UX, Figma</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Responsive Design</h3>
+          <p>Mobile-First Approach</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Shivang Ayush. All rights reserved.</p>
-    </footer>
+  <section id="works">
+    <div class="container">
+      <h2>My Works</h2>
+      <div class="works-grid">
+        <div class="work-card">
+          <img src="https://via.placeholder.com/300x200" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>Description of project 1</p>
+        </div>
+        <div class="work-card">
+          <img src="https://via.placeholder.com/300x200" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>Description of project 2</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Get in touch at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
