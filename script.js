@@ -1,21 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Custom Cursor
-    const cursor = document.createElement("div");
-    cursor.classList.add("cursor");
-    document.body.appendChild(cursor);
+    const links = document.querySelectorAll("nav ul li a");
+    const darkModeToggle = document.getElementById("darkModeToggle");
+    const body = document.body;
+    const cursor = document.querySelector(".cursor");
 
-    document.addEventListener("mousemove", (e) => {
-        cursor.style.left = `${e.clientX}px`;
-        cursor.style.top = `${e.clientY}px`;
-    });
-
-    document.querySelectorAll("a, button, .cta").forEach((elem) => {
-        elem.addEventListener("mouseover", () => cursor.classList.add("cursor-hover"));
-        elem.addEventListener("mouseleave", () => cursor.classList.remove("cursor-hover"));
-    });
-
-    // Smooth scrolling for navigation links
-    document.querySelectorAll("nav ul li a").forEach(link => {
+    // Smooth scrolling
+    links.forEach(link => {
         link.addEventListener("click", function (event) {
             event.preventDefault();
             const targetId = this.getAttribute("href").substring(1);
@@ -28,18 +18,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Dark Mode Toggle
-    const darkModeToggle = document.getElementById("darkModeToggle");
-    const body = document.body;
-    
     darkModeToggle.addEventListener("click", function () {
         body.classList.toggle("dark-mode");
         darkModeToggle.textContent = body.classList.contains("dark-mode") ? "☀️" : "🌙";
     });
 
-    // Typing Animation
+    // Fade-in effect
+    const fadeElements = document.querySelectorAll(".fade-in");
+    function fadeInOnScroll() {
+        fadeElements.forEach(el => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 50) {
+                el.classList.add("show");
+            }
+        });
+    }
+    
+    window.addEventListener("scroll", fadeInOnScroll);
+    fadeInOnScroll();
+
+    // Typing animation
     const text = "Shivang Ayush";
     let index = 0;
-
     function typeEffect() {
         if (index < text.length) {
             document.querySelector(".typing").textContent += text.charAt(index);
@@ -47,7 +47,20 @@ document.addEventListener("DOMContentLoaded", function () {
             setTimeout(typeEffect, 150);
         }
     }
-
     document.querySelector(".typing").textContent = "";
     typeEffect();
+
+    // Animated Cursor
+    document.addEventListener("mousemove", (e) => {
+        cursor.style.left = `${e.clientX}px`;
+        cursor.style.top = `${e.clientY}px`;
+    });
+
+    document.addEventListener("mouseenter", () => {
+        cursor.style.opacity = 1;
+    });
+
+    document.addEventListener("mouseleave", () => {
+        cursor.style.opacity = 0;
+    });
 });
