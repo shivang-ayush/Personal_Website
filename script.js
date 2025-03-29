@@ -94,7 +94,7 @@ window.addEventListener('scroll', () => {
 });
 
 // Initialize EmailJS
-emailjs.init("YOUR_PUBLIC_KEY");
+emailjs.init("1xT6Fxd6oaUo9Rioq");
 
 // Handle form submission
 document.getElementById('contact-form').addEventListener('submit', function(event) {
@@ -112,7 +112,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     reply_to: document.getElementById('email').value
   };
 
-  emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+  emailjs.send('service_iafpcoz', 'template_vjbyy7e', templateParams)
     .then(function() {
       statusElement.textContent = 'Message sent successfully!';
       statusElement.style.color = 'green';
