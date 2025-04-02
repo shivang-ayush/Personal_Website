@@ -8,6 +8,11 @@
   font-size: 1.5rem; /* Adjust size as needed */
   color: #000; /* Adjust color as needed */
 }
+.skill-card i.fa-ellipsis-h {
+  color: #6c757d; /* Neutral gray for variety */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
 .skill-card i.fa-cogs {
   color: #a56624; /* Bright yellow for creativity */
   font-size: 2.5rem;
