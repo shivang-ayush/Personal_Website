@@ -10,7 +10,7 @@ document.body.appendChild(cursorTrail);
 
 // Create shadow trail
 const shadows = [];
-const numShadows = 5;
+const numShadows = 10;
 
 for (let i = 0; i < numShadows; i++) {
   const shadow = document.createElement('div');
