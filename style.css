@@ -1,3 +1,51 @@
+/* About Section Styles */
+#about {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#about .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#about .about-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#about .about-details p {
+  margin-bottom: 15px;
+}
+
+#about .call-to-action {
+  margin-top: 30px;
+}
+
+#about .call-to-action a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#about .call-to-action a:hover {
+  text-decoration: underline;
+}
+
 
 * {
   margin: 0;
