@@ -1,4 +1,39 @@
-/* About Section Styles */
+.skill-card i.fa-lightbulb {
+  color: #f39c12; /* Bright yellow for creativity */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.skill-card i.fa-cogs {
+  color: #a56624; /* Bright yellow for creativity */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.skill-card i.fa-users {
+  color: #4779e5; /* Bright yellow for creativity */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.skill-card i.fa-robot {
+  color: #7ea610; /* Bright yellow for creativity */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.skill-card i.fa-code {
+  color: #c54545; /* Bright yellow for creativity */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.skill-card i.fa-paint-brush {
+  color: #f3c612; /* Bright yellow for creativity */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.skill-card i.fa-laptop{
+  color: #b3f312; /* Bright yellow for creativity */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
 #about {
   padding: 60px 20px;
   background-color: #f9f9f9;
