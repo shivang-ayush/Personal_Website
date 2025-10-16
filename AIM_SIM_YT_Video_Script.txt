@@ -1,0 +1,29 @@
+Also, note it down!
+
+Video Presentation Script: "Mann Ki Awaaz"
+(Start with a confident smile, looking directly at the camera)
+
+Opening: "Have you ever walked away from a situation, wishing you had acted better? Or felt a wave of stress, with no one to talk to? What if you had a gentle voice to guide you, not just on what's right, but on what's good for you?"
+
+(Pause for effect)
+
+The Problem: "Our world faces a dual crisis. On one hand, we see a daily erosion of civic sense—littering, traffic chaos, a simple lack of courtesy. On the other, a silent epidemic of loneliness, stress, and anxiety. We're more connected than ever, yet we feel increasingly alone. Traditional solutions like posters or occasional reminders just aren't enough."
+
+The Solution: "Our team asked a simple question: What if technology could feel? What if it could be a companion for your conscience and your mind? This is 'Mann Ki Awaaz'—The Virtual Guide Within You."
+
+(Hold up the design prototype or point to a graphic of it)
+
+How It Works: "It’s a discreet, AI-powered wearable. Here’s how it transforms your daily life in real-time."
+
+As Your Civic Guide: "Its camera sees the world as you do. If you’re about to litter, it doesn’t judge you. Instead, a calm voice in your ear suggests, 'Let's find a bin to keep our city beautiful.' It’s a nudge, turning abstract values into daily practice."
+
+As Your Mental Companion: "And when you're feeling low or stressed, you can just talk to it. Its advanced AI is an empathetic listener, ready to offer a supportive conversation or a simple breathing exercise to calm you down. It’s your 24/7, judgment-free confidant."
+
+The Technology: "We built this using a Raspberry Pi, a camera, and bone-conduction audio that doesn’t block your ears. The magic happens through a powerful AI that understands context and emotion, providing guidance that is both intelligent and compassionate."
+
+The Impact: "We envision 'Mann Ki Awaaz' helping students build character, professionals manage stress, and all of us become more mindful citizens. We're not just building a device; we're planting the seed for a more empathetic and responsible society."
+
+Closing: "With 'Mann Ki Awaaz', we give technology a heart. We give it a voice. Not to command, but to care. Join us in building a future where technology doesn't just think for us—it helps us become better versions of ourselves."
+
+(End with a final, confident smile)
+"Thank you."
