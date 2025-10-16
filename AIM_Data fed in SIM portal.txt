@@ -1,0 +1,55 @@
+Data fed in SIM portal!
+
+
+'Mann Ki Awaaz' – The Virtual Guide Within You
+
+Problem Statement:-
+
+In today’s fast-moving world, people—especially children and youth—are losing touch with basic moral values and civic sense. Simple actions like littering, ignoring public rules, or showing disrespect often go unnoticed, leading to a gradual decline in social discipline and responsibility. Traditional education focuses mainly on academic skills, leaving a gap in moral awareness and ethical decision-making.
+
+There is an urgent need for a personalized, technology-driven mentor that can guide individuals in real time, helping them recognize good and bad actions in everyday life. A system that can observe, analyze, and respond—promoting better habits, social manners, and responsible behavior—can bridge the gap between knowledge and conscience, shaping a more aware and self-reliant generation.
+
+
+Causes of the Problem:-
+
+Lack of basic civic sense and awareness among people.
+Weak moral and emotional education in schools.
+Absence of AI-driven guidance or personal monitoring in daily life.
+Growing emotional instability, anxiety, and depression among youth.
+Negligence towards public property and surroundings.
+Need for a supportive AI system that helps individuals recover from anxiety, fear, depression, and stress while reminding them of right actions.
+
+
+Effects of the Problem:-
+
+Increased littering and pollution due to poor civic behavior.
+Spread of diseases and infections from unhygienic surroundings.
+Suicidal tendencies among youth due to loneliness and emotional neglect.
+Rise in crime rates like theft, harassment, and assaults due to moral decline.
+Increase in rape and abuse cases due to lack of empathy and respect for others.
+Growing fear and insecurity in public spaces, especially for women and children.
+
+Problem Affects:-
+
+Children & Teens: Forgetting manners, littering, needing constant guidance.
+Adults: Rushed, distracted, letting civic habits slip.
+Society: Suffers from dirty spaces, dangerous roads, and eroding public trust.
+Parents & Educators: Struggle to provide real-time, contextual moral coaching.
+Tourists & New Residents: Unfamiliar with local social etiquette and civic norms.
+
+Describing the solution:-
+
+Our solution is "Mann Ki Awaaz" – The Virtual Guide Within You, an AI-powered wearable that acts as a real-time, empathetic moral companion.
+Here’s how it works:
+See: A discreet camera captures the user's immediate environment.
+Understand: This visual data is analyzed by a powerful AI (like GPT-4) to deeply understand the context and ethical implications of the situation.
+Guide: The AI provides instant, gentle, and verbal feedback through a bone-conduction earpiece, offering suggestions like, "Let's find a bin for that wrapper," in the user's native language.
+
+This system directly helps children, teens, and adults by providing the contextual coaching they lack. It uniquely solves the problem through in-the-moment behavioral reinforcement, bridging the gap between knowing what is right and consistently doing it. By making users consciously aware of their unconscious actions.
+
+Feedback:-
+
+Our team's feedback revealed a deeper need: users wanted a companion, not just a guide. We evolved "Mann Ki Awaaz" from a civic-sense tool into a holistic wellness partner.
+
+We enhanced its AI (using advanced LLMs like GPT-4) to now also function as an empathetic conversational partner. This allows it to combat loneliness and provide proactive mental health support, offering coping strategies and mindfulness exercises during moments of stress or anxiety.
+
