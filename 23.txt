@@ -1,66 +1,21 @@
-🎤 Speech Script
+🎬 Video generation prompt
 
-Respected Principal, teachers, and my dear friends,
-Good morning to all of you. Today, I feel truly honored to stand before you and speak on a topic that fills every Indian with pride — India’s Cosmic Journey: From the Moon to Vyom (space).
+Use the uploaded image as the exact visual reference and starting frame. Create an ultra-photorealistic cinematic video, approximately 8–10 seconds long. Preserve the two characters’ faces, hairstyles, clothing, body proportions, tactical gear, weapons, vault environment, lighting, colors, and overall composition exactly as shown in the reference image. Do not redesign or replace the characters.
 
-🌙 Why August 23rd is Special
+The scene comes alive subtly and naturally. Both characters remain standing in the same positions while rhythmically swaying their upper bodies and shoulders gently from side to side and slightly forward and backward, as though moving to an unheard beat. Their movements should feel confident, controlled, and realistic rather than exaggerated or cartoonish.
 
-Friends, do you know why August 23rd is such a historic date for our country?
-On this day, India became the first nation to land near the Moon’s south pole through our Chandrayaan-3 mission. This success was not just a scientific milestone but a symbol of our nation’s courage, determination, and relentless pursuit of knowledge. That’s why this day is now celebrated as National Space Day.
+The characters move their arms and the guns naturally along with their body movement, maintaining a secure grip on their weapons. The firearms should move smoothly with their hands and arms, with realistic weight, inertia, and subtle secondary motion. No firing, muzzle flashes, recoil, or combat. Keep the weapons pointed safely downward/across their bodies as in the original image.
 
-👨‍🚀 The Visionaries
+The masked male character subtly shifts his shoulders and torso while his tactical vest, clothing, straps, and gloves respond naturally to the movement. The female character performs a similar controlled rhythmic sway, with realistic movement of her arms, hair, clothing, tactical vest, and weapon. Preserve their original poses and identities throughout the entire shot.
 
-Behind every great achievement, there are visionaries.
+Money begins floating and swirling through the vault around them. Numerous realistic U.S. dollar bills drift through the air from different directions. Some bills gently flutter toward the camera, others rotate slowly, and some pass behind and between the characters. Give every banknote physically believable paper movement, folding, rotation, and air resistance. The money should continuously flow through the scene rather than appearing suddenly or teleporting.
 
-Dr. Vikram Sarabhai, the father of India’s space program, who dared to dream when we had very little.
+Add subtle environmental motion: slight atmospheric haze, tiny dust particles illuminated by the overhead lights, gentle movement in loose clothing straps, and realistic reflections on the metallic vault surfaces. Maintain the dramatic greenish cinematic lighting from the reference image.
 
-Dr. A.P.J. Abdul Kalam, our Missile Man and former President, who inspired millions, especially the youth, to look towards the stars.
+Camera: cinematic slow push-in toward the characters with very subtle handheld movement and natural depth of field. Keep the characters sharply in focus while some foreground dollar bills pass close to the lens with realistic motion blur. Use realistic lens characteristics, physically accurate lighting, soft volumetric light, natural shadows, detailed skin texture, realistic fabric and metal materials, and high-end Hollywood-style cinematography.
 
-It is because of such leaders that we stand tall in the world of space exploration today.
+Animation quality: extremely smooth, realistic human motion, accurate anatomy, natural joint movement, realistic physics, realistic cloth simulation, realistic hair simulation, realistic weapon weight and inertia. No frozen limbs, rubbery motion, morphing, duplicated objects, warped faces, extra fingers, disappearing weapons, or changes to the characters.
 
-🚀 India’s Mighty Rockets
+Visual target: ultra-photorealistic, cinematic, high dynamic range, extremely detailed, realistic skin pores, physically based rendering, natural facial micro-movements, realistic reflections, volumetric lighting, subtle film grain, cinematic color grading, 4K-quality detail.
 
-Our space journey is powered by incredible rockets:
-
-PSLV, the workhorse, which has launched satellites for India and many countries around the world.
-
-GSLV, the heavy lifter, which carries large satellites into high orbits.
-
-And the mighty LVM3 – Bahubali, India’s most powerful rocket, designed to take us further, even preparing us for human spaceflight.
-
-🌌 Historic Missions
-
-Our missions have not only made headlines but also created history:
-
-Chandrayaan-1, which discovered water molecules on the Moon.
-
-Mangalyaan, our Mars Orbiter Mission, which made India the first country to reach Mars in its first attempt.
-
-Chandrayaan-3, which placed India on the Moon’s south pole — a region no one had reached before.
-
-🧑‍🚀 The Gaganyaan Mission
-
-Now, India is preparing for the next giant leap — sending humans into space.
-The Gaganyaan mission will carry three astronauts into Low Earth Orbit for about three days and safely bring them back. This mission is not just about technology but about showing that Indians, too, are ready to live and work in space.
-
-To make this safe, ISRO has even developed Vyommitra, a half-humanoid robot that will go before humans to test conditions and ensure astronaut safety. Truly amazing, isn’t it?
-
-🌠 The Road Ahead
-
-Looking ahead, India’s vision is bold and ambitious:
-
-More test flights in 2025.
-
-The first human spaceflight mission soon after.
-
-And by 2035, our very own Indian Space Station.
-
-Just imagine, in a few years, astronauts may look down at Earth from an Indian station, waving our tricolor high in space!
-
-✨ Closing
-
-My dear friends, India’s journey to the stars teaches us one powerful lesson: Dream big, work hard, and never give up.
-As we move forward, let us carry the spirit of science, innovation, and discovery within us.
-
-Jai Hind! Jai Vigyan!
-Onward to the stars, united by knowledge and exploration. 🌌🚀
+Most important: the uploaded image is the source of truth. Keep the characters and environment visually consistent with the original image throughout the entire video. Animate the existing scene rather than creating a different scene.
